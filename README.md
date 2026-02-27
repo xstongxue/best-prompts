@@ -56,7 +56,7 @@ best-prompts 希望做两件事：
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 公众号/技术博客        | [wechat-article-writer-prompt.md](prompts/wechat-article-writer-prompt.md) — 搜索资料、撰写、爆款标题、排版优化                                                    |
 | 公众号封面 Draw.io   | [wechat-article-image-generator-prompt.md](prompts/wechat-article-image-generator-prompt.md) — 封面/结尾图 .drawio XML，支持 1:1、16:9、9:16、4:3、3:4、2.35:1 |
-| 公众号文章插图 Draw.io | [wechat-article-step-illustration-prompt.md](prompts/wechat-article-step-illustration-prompt.md) — 正文插图 .drawio XML，步骤图、演示图、流程示意、前后对比             |
+| 公众号文章插图 Draw.io | [wechat-article-illustration-prompt.md](prompts/wechat-article-illustration-prompt.md) — 正文插图 .drawio XML，步骤图、演示图、流程示意、前后对比             |
 
 
 ### 项目文档与简历
@@ -93,4 +93,3 @@ best-prompts 希望做两件事：
 > 2. 复制 `# Role` 到 `# Input` 之间的完整 Prompt（含  代码块）
 > 3. 粘贴到与 AI 的对话中
 > 4. 在 `[在此处填写]` 或 `[在此处粘贴]` 位置填入你的内容
-
