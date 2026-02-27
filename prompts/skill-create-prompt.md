@@ -20,7 +20,6 @@
 # Skill 基本结构
 
 ## 目录结构
-```
 
 skill-name/
 ├── SKILL.md       # 必需：技能定义
@@ -28,10 +27,8 @@ skill-name/
 ├── examples.md    # 可选：使用示例
 └── scripts/      # 可选：工具脚本
 
-```
 
 ## SKILL.md 结构
-```markdown
 ---
 name: your-skill-name
 description: 这个 Skill 做什么、什么时候用（含触发关键词）
@@ -47,7 +44,7 @@ description: 这个 Skill 做什么、什么时候用（含触发关键词）
 - 步骤1
 - 步骤2
 - 注意事项
-```
+
 
 ## 元数据要求
 
@@ -87,4 +84,3 @@ description: 这个 Skill 做什么、什么时候用（含触发关键词）
 
 【Skill 需求】：  
 [在此处描述你的 Skill 要解决什么问题、在什么场景下使用、有哪些关键步骤或约束]
-
