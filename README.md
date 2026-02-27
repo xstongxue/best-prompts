@@ -1,8 +1,12 @@
 # best-prompts
 
-通用高质量 Prompt 合集，可直接复制到聊天框使用。
+通用高质量 prompt 合集，可直接复制到聊天框使用。
 
-## 项目初衷
+本提示词在 Claude4.6、Gemini3、GPT5.2、Composer1.5 等模型下遵循极好，优先推荐使用
+
+更多模型排名：[https://arena.ai/zh/leaderboard](https://arena.ai/zh/leaderboard)
+
+## 一 项目初衷
 
 在 Vibe Coding 时代，**好的 Prompt 决定 AI 的输出质量**。但市面上很多「万能写作 Prompt」要么太泛、要么太散——真正能贴合具体场景、适配输出格式、兼顾约束细节的，少之又少。
 
@@ -13,7 +17,7 @@ best-prompts 希望做两件事：
 
 项目**通用且可扩展**，会持续补充更多领域。欢迎 Star、Fork、提 Issue 和 PR。
 
-## 按使用场景分类
+## 二 按使用场景分类
 
 ### 本科&硕士大论文撰写
 
@@ -83,7 +87,7 @@ best-prompts 希望做两件事：
 
 ---
 
-## 使用方式
+## 三 使用方式
 
 > 1. 打开对应 `.md` 文件
 > 2. 复制 `# Role` 到 `# Input` 之间的完整 Prompt（含  代码块）
