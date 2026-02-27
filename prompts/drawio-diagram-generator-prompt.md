@@ -27,7 +27,6 @@
 - 特殊字符必须转义：`&` → `&`，`<` → `<`，`>` → `>`
 
 ## 2. 标准文件结构
-```xml
 <mxfile host="app.diagrams.net">
   <diagram name="图表名称" id="图表id">
     <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="宽度" pageHeight="高度" background="#F5F5DC">
@@ -39,7 +38,7 @@
     </mxGraphModel>
   </diagram>
 </mxfile>
-```
+
 
 ## 3. 配色方案（学术风格）
 
@@ -71,5 +70,4 @@
 【参考信息】（如有：代码片段、参考图描述、布局偏好）：
 [在此处粘贴]
 
-
-
+```
