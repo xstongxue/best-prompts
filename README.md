@@ -24,16 +24,17 @@ best-prompts 希望做两件事：
 学位论文全流程（大纲审核、结构仿写、润色扩写、参考文献、防 AIGC、中英互译等），配合图表生成完成系统设计章节的图文内容。
 
 
-| 用途         | Prompt                                                                                                                 |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------- |
-| **正文撰写**   | [paper-write-prompt.md](prompts/paper-write-prompt.md) — 大纲审核、绪论/摘要/实验章节仿写、润色/扩写/缩写、参考文献、防 AIGC、中英互译                   |
-| **论文章节生成** | [codegen-thesis-chapter-generator-prompt.md](prompts/codegen-thesis-chapter-generator-prompt.md) — 根据大纲与项目代码生成系统设计章节正文 |
-| **通用图表**   | [drawio-diagram-generator-prompt.md](prompts/drawio-diagram-generator-prompt.md) — 模型架构图、算法流程图、概念示意图                   |
-| **技术栈图**   | [codegen-tech-stack-diagram-prompt.md](prompts/codegen-tech-stack-diagram-prompt.md) — 前端/后端/模型服务技术栈结构图                |
-| **系统架构图**  | [codegen-system-arch-diagram-prompt.md](prompts/codegen-system-arch-diagram-prompt.md) — 四层分层架构图                       |
-| **数据结构图**  | [codegen-data-structure-diagram-prompt.md](prompts/codegen-data-structure-diagram-prompt.md) — 表格式实体与字段关系图             |
-| **E-R 图**  | [codegen-er-diagram-prompt.md](prompts/codegen-er-diagram-prompt.md) — Chen 记法实体关系图                                    |
-| **风格迁移**   | [codegen-diagram-style-migration-prompt.md](prompts/codegen-diagram-style-migration-prompt.md) — 按参考图风格生成项目图表          |
+| 用途         | Prompt                                                                                                                             |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| **正文内容撰写** | [paper-write-prompt.md](prompts/paper-write-prompt.md) — 大纲审核、绪论/摘要/实验章节仿写、润色/扩写/缩写、参考文献、防 AIGC、中英互译、结构化信息提取                       |
+| **系统章节生成** | [codegen-paper-chapter-generator-prompt.md](prompts/codegen-paper-chapter-generator-prompt.md) — 根据大纲与项目代码生成系统设计章节正文               |
+| **通用图表**   | [drawio-diagram-generator-prompt.md](prompts/drawio-diagram-generator-prompt.md) — 模型架构图、算法流程图、概念示意图                               |
+| **技术栈图**   | [codegen-tech-stack-diagram-prompt.md](prompts/codegen-tech-stack-diagram-prompt.md) — 前端/后端/模型服务技术栈结构图                            |
+| **系统架构图**  | [codegen-system-arch-diagram-prompt.md](prompts/codegen-system-arch-diagram-prompt.md) — 四层分层架构图                                   |
+| **数据结构图**  | [codegen-data-structure-diagram-prompt.md](prompts/codegen-data-structure-diagram-prompt.md) — 表格式实体与字段关系图                         |
+| **E-R 图**  | [codegen-er-diagram-prompt.md](prompts/codegen-er-diagram-prompt.md) — Chen 记法实体关系图                                                |
+| **图片风格迁移** | [codegen-diagram-style-migration-prompt.md](prompts/codegen-diagram-style-migration-prompt.md) — 按参考图风格生成项目图表                      |
+| **答辩 PPT** | [pptgen-drawio-thesis-defense-prompt.md](prompts/pptgen-drawio-thesis-defense-prompt.md) — 多页 Draw.io 生成，配合 drawio2pptx 导出可编辑的 PPT |
 
 
 ### 开发流程四步法
@@ -56,7 +57,7 @@ best-prompts 希望做两件事：
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 公众号/技术博客        | [wechat-article-writer-prompt.md](prompts/wechat-article-writer-prompt.md) — 搜索资料、撰写、爆款标题、排版优化                                                    |
 | 公众号封面 Draw.io   | [wechat-article-image-generator-prompt.md](prompts/wechat-article-image-generator-prompt.md) — 封面/结尾图 .drawio XML，支持 1:1、16:9、9:16、4:3、3:4、2.35:1 |
-| 公众号文章插图 Draw.io | [wechat-article-illustration-prompt.md](prompts/wechat-article-illustration-prompt.md) — 正文插图 .drawio XML，步骤图、演示图、流程示意、前后对比             |
+| 公众号文章插图 Draw.io | [wechat-article-illustration-prompt.md](prompts/wechat-article-illustration-prompt.md) — 正文插图 .drawio XML，步骤图、演示图、流程示意、前后对比                       |
 
 
 ### 项目文档与简历
@@ -93,3 +94,4 @@ best-prompts 希望做两件事：
 > 2. 复制 `# Role` 到 `# Input` 之间的完整 Prompt（含  代码块）
 > 3. 粘贴到与 AI 的对话中
 > 4. 在 `[在此处填写]` 或 `[在此处粘贴]` 位置填入你的内容
+

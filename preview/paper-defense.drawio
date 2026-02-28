@@ -1,0 +1,274 @@
+<mxfile host="65bd71144e">
+    <diagram name="封面" id="page1">
+        <mxGraphModel dx="1604" dy="1167" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#F8F9FA" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F9FA;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry width="1920" height="1080" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="280" width="8" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="基于深度学习与多传感器融合的&#10;自动驾驶路径规划方法研究" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=52;fontStyle=1;fontColor=#2C3E50;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="300" width="1600" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="硕士学位论文答辩" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=36;fontColor=#7F8C8D;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="480" width="400" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="答辩人：[答辩人]&#10;导　师：[导师]&#10;学　校：[学校]&#10;日　期：[日期]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=28;fontColor=#2C3E50;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="600" width="400" height="180" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="1.研究背景与意义" id="page2">
+        <mxGraphModel dx="849" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#F8F9FA" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F9FA;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry width="1920" height="1080" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="1. 研究背景与意义" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=48;fontStyle=1;fontColor=#2C3E50;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="60" width="700" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="130" width="80" height="6" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="• 自动驾驶技术快速发展，路径规划是决策系统的核心环节，直接影响车辆的安全性与行驶效率。&#10;• 复杂动态环境中存在动态障碍物、交通标志识别、多车协同等难点，对路径规划的实时性与鲁棒性提出更高要求。&#10;• 现有方法在单一传感器依赖、局部最优解、避障精度等方面存在不足，多传感器融合与深度强化学习为改进提供了新思路。&#10;• 本文围绕深度强化学习优化与多传感器信息融合两条主线，提出 D-RL-Path 与 Fusion-Path 方案，旨在提升路径规划的精度与适应性。" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=26;fontColor=#2C3E50;spacing=10;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="180" width="1680" height="280" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="2.国内外研究现状" id="page3">
+        <mxGraphModel dx="722" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#F8F9FA" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F9FA;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry width="1920" height="1080" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="2. 国内外研究现状" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=48;fontStyle=1;fontColor=#2C3E50;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="60" width="600" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="130" width="80" height="6" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="• 路径规划发展：从基于模型的传统规划（A*、RRT）到基于数据驱动的深度学习与强化学习方法。&#10;• 深度强化学习：DDPG、A3C 等算法在自动驾驶决策与路径规划中广泛应用，可学习复杂环境下的最优策略。&#10;• 多传感器融合：激光雷达、摄像头、毫米波雷达等多源数据融合，提升感知鲁棒性与环境建模能力。&#10;• 基准算法与数据集：DDPG、A3C 为常用基准；CARLA 等仿真平台为训练与评估提供支撑。" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=26;fontColor=#2C3E50;spacing=10;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="180" width="1680" height="260" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="3.研究内容与方法总览" id="page4">
+        <mxGraphModel dx="722" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#F8F9FA" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F9FA;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry width="1920" height="1080" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="3. 研究内容与方法总览" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=48;fontStyle=1;fontColor=#2C3E50;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="60" width="700" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="130" width="80" height="6" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="本文基于深度强化学习与多传感器融合技术，从算法优化与信息融合两个角度提出改进：&#10;&#10;• 3.1 基于深度强化学习的路径规划优化（原第三章）：结合 DDPG 进行路径规划决策优化，在复杂动态环境中提高避障精度与规划效率，形成 D-RL-Path 算法。&#10;&#10;• 3.2 基于多传感器信息融合的路径规划（原第四章）：提出 CNN-RNN 深度特征提取与强化学习优化，形成 Fusion-Path 网络，提升系统在复杂路况中的稳定性与精度。" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=26;fontColor=#2C3E50;spacing=10;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="180" width="1680" height="280" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="3.1深度强化学习路径规划优化" id="page5">
+        <mxGraphModel dx="722" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#F8F9FA" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F9FA;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry width="1920" height="1080" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="3.1 基于深度强化学习的路径规划优化（原第三章）" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;fontStyle=1;fontColor=#2C3E50;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="50" width="1100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="110" width="80" height="6" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="• 针对复杂动态环境中障碍物避让与局部最优解问题，提出基于 DDPG 的路径规划优化方法。&#10;• 结合基于模型的轨迹预测与控制策略，利用深度强化学习优化路径规划决策，在 CARLA 仿真平台上验证有效性。&#10;• 优化后的 D-RL-Path 算法在避障精度与路径规划效率上均有提升。" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;fontColor=#2C3E50;spacing=8;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="140" width="900" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="【此处插入图 3-2：深度强化学习优化的路径规划网络架构】" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;strokeWidth=2;fontColor=#7F8C8D;fontSize=24;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="320" width="840" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="【此处插入图 3-3：基于 DDPG 的路径规划优化模块】" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;strokeWidth=2;fontColor=#7F8C8D;fontSize=22;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="1000" y="320" width="800" height="340" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="3.2多传感器融合路径规划" id="page6">
+        <mxGraphModel dx="722" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#F8F9FA" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F9FA;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry width="1920" height="1080" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="3.2 基于多传感器信息融合的路径规划（原第四章）" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;fontStyle=1;fontColor=#2C3E50;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="50" width="1100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="110" width="80" height="6" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="• 针对单一传感器依赖与融合算法不完善问题，提出基于 CNN 与 RNN 的深度特征提取模型。&#10;• 结合强化学习优化多传感器融合的路径规划结果，提升系统在复杂路况中的稳定性与精度。&#10;• 在多个复杂测试场景下验证 Fusion-Path 网络的高效性与可靠性。" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;fontColor=#2C3E50;spacing=8;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="140" width="900" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="【此处插入图 4-4：基于多传感器融合的路径规划网络架构】" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;strokeWidth=2;fontColor=#7F8C8D;fontSize=24;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="320" width="840" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="【此处插入图 4-3：CNN-RNN 融合模块】" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;strokeWidth=2;fontColor=#7F8C8D;fontSize=22;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="1000" y="320" width="800" height="340" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="4.实验结果" id="page7">
+        <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#F8F9FA">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F9FA;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="4. 实验结果（路径规划对比）" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=48;fontStyle=1;fontColor=#2C3E50;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="60" width="700" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="130" width="80" height="6" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="【此处插入表 4-2：自动驾驶路径规划对比实验结果】" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;strokeWidth=2;fontColor=#7F8C8D;fontSize=28;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="180" width="1680" height="520" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="5.消融实验" id="page8">
+        <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#F8F9FA">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F9FA;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="5. 消融实验" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=48;fontStyle=1;fontColor=#2C3E50;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="60" width="400" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="130" width="80" height="6" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="【此处插入表 4-6：消融实验结果】" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;strokeWidth=2;fontColor=#7F8C8D;fontSize=28;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="180" width="1680" height="520" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="6.系统设计与实现" id="page9">
+        <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#F8F9FA">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F9FA;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="6. 系统设计与实现" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=48;fontStyle=1;fontColor=#2C3E50;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="60" width="500" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="130" width="80" height="6" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="• 采用前后端分离架构：React 前端、TensorFlow 与 ROS 后端，完成路径计算与传感器数据处理。&#10;• 功能模块：路径规划、地图构建、车辆控制、传感器数据接入、实时监控。&#10;• 在 CARLA 仿真平台中进行系统测试与功能演示，具备工程应用价值。" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=26;fontColor=#2C3E50;spacing=8;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="180" width="1680" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="【此处插入图 5-2：自动驾驶系统架构图】" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;strokeColor=#BDC3C7;strokeWidth=2;fontColor=#7F8C8D;fontSize=28;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="340" width="1680" height="500" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="7.核心创新点" id="page10">
+        <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#F8F9FA">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F9FA;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="7. 核心创新点" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=48;fontStyle=1;fontColor=#2C3E50;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="80" width="400" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="150" width="80" height="6" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="1. 提出基于深度强化学习的路径规划优化算法（D-RL-Path），结合 DDPG 进行避障精度优化，提升路径规划的实时性与避障效率。&#10;2. 提出基于多传感器信息融合的路径规划网络（Fusion-Path），结合 CNN-RNN 特征提取与强化学习优化，提升系统在复杂环境中的适应能力。&#10;3. 构建适用于自动驾驶路径规划的 CARLA 仿真数据集，支持深度强化学习与多传感器融合模型的训练与测试。&#10;4. 设计并实现基于深度学习的自动驾驶路径规划系统，完成路径规划、控制与实时监控功能，具备工程应用价值。" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=26;fontColor=#2C3E50;spacing=10;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="200" width="1680" height="280" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="8.结论与展望" id="page11">
+        <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#F8F9FA">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F9FA;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="8. 结论与展望" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=48;fontStyle=1;fontColor=#2C3E50;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="80" width="500" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3498DB;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="150" width="80" height="6" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="结论：本文提出的 D-RL-Path 与 Fusion-Path 方法在路径规划优化与多传感器融合方面取得有效进展，实验验证了算法在复杂环境中的性能提升，系统具备工程应用价值。&#10;&#10;展望：基于大规模数据集的训练、多传感器实时融合、实际路况下的路径规划与决策等方向有待进一步研究。" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=28;fontColor=#2C3E50;spacing=12;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="220" width="1680" height="200" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="致谢" id="page12">
+        <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#F8F9FA">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F9FA;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="致谢" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=56;fontStyle=1;fontColor=#2C3E50;" vertex="1" parent="1">
+                    <mxGeometry x="760" y="420" width="400" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="感谢导师的悉心指导与各位老师的宝贵意见！" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=32;fontColor=#7F8C8D;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="520" width="800" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="请老师批评指正" id="page13">
+        <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#F8F9FA">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F9FA;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="请各位老师批评指正！" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=72;fontStyle=1;fontColor=#2C3E50;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="420" width="1200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Q&amp;A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=36;fontColor=#7F8C8D;" vertex="1" parent="1">
+                    <mxGeometry x="860" y="560" width="200" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
