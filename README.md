@@ -34,7 +34,7 @@ best-prompts 希望做两件事：
 | **数据结构图**  | [codegen-data-structure-diagram-prompt.md](prompts/codegen-data-structure-diagram-prompt.md) — 表格式实体与字段关系图                         |
 | **E-R 图**  | [codegen-er-diagram-prompt.md](prompts/codegen-er-diagram-prompt.md) — Chen 记法实体关系图                                                |
 | **图片风格迁移** | [codegen-diagram-style-migration-prompt.md](prompts/codegen-diagram-style-migration-prompt.md) — 按参考图风格生成项目图表                      |
-| **答辩 PPT** | [pptgen-drawio-thesis-defense-prompt.md](prompts/pptgen-drawio-thesis-defense-prompt.md) — 多页 Draw.io 生成，配合 drawio2pptx 导出可编辑的 PPT |
+| **答辩 PPT** | [pptgen-drawio-paper-defense-prompt.md](prompts/pptgen-drawio-paper-defense-prompt.md) — 多页 Draw.io 生成，配合 drawio2pptx 导出可编辑的 PPT |
 
 
 ### 开发流程四步法
