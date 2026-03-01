@@ -11,8 +11,8 @@
 # 格式规范
 
 ## Skill 格式（SKILL.md）
-- **YAML 前置元数据**：`name`（英文小写短横线）、`description`（Agent 据此判断是否调用，需包含关键词和触发场景）
-- **正文结构**：标题 → 使用时机 → Step 1 / Step 2...（或 指令）→ 注意事项 / 示例
+- **YAML 前置元数据**：必须用 `---` 开头和结尾闭合；`name`（英文小写短横线）、`description`（Agent 据此判断是否调用，需包含关键词和触发场景）；严禁使用 `## name:`
+- **正文结构**：标题 → 使用时机 → Step 1 / Step 2...（或 指令）→ 注意事项 / 示例；多输入任务需补充「触发时的输入方式」
 - **特点**：面向 Agent 按需加载，强调「何时用」「怎么用」，步骤清晰可执行
 
 ## Prompt 格式
@@ -35,12 +35,12 @@
 - 从 `# Task` 或 `# Constraints` 提炼「使用时机」
 - 将 `# Workflow`、`# Constraints` 中的步骤拆解为 Step 1、Step 2...
 - 保留 `# Output Format` 对应内容到「输出要求」或「注意事项」
-- 输出为完整的 SKILL.md 格式，含 YAML 前置元数据
+- 输出为完整的 SKILL.md，**必须符合标准格式**：YAML 用 `---` 开头和结尾闭合，使用 `name:` 和 `description:`（严禁 `## name:`）
 
 # Constraints
 1. **信息零丢失**：转换时不得删减核心逻辑、步骤、约束条件
 2. **格式适配**：Skill 强调「何时触发」「Agent 如何执行」；Prompt 强调「用户输入什么」「输出什么格式」
-3. **命名规范**：`name` 必须为英文、小写、短横线连接（如 `wechat-article-writer`）
+3. **命名规范**：`name` 必须为英文、小写、短横线连接（如 `wechat-article-writer`）；reference 文件名同理（如 `outline-review-science.md`）；Skill 输出时 YAML 必须用 `---` 闭合，严禁 `## name:`
 4. **description 质量**：Agent 依赖 description 做匹配，需包含「什么时候用」「用来干什么」及关键词
 
 # Output Format
