@@ -11,7 +11,7 @@
 
 ## 工作流
 
-1. **提取输入**（可选）：若只有论文全文，可先用 [paper-write-prompt 论文结构化提取](paper-write-prompt.md#论文结构化提取) 从论文中自动提取结构化 Input
+1. **提取输入**（可选）：若只有论文全文，可先用 [paper-write-prompt 论文结构化提取](paper-write-prompt.md#结构化信息提取) 从论文中自动提取结构化 Input
 2. **生成**：将本 Prompt 与【论文信息】发给 AI，获得完整多页 `.drawio` 文件
 3. **微调**：在 Draw.io 中打开，编辑文字、调整布局、替换图表
 4. **导出**：`drawio2pptx paper-defense.drawio paper-defense.pptx`
