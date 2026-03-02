@@ -24,16 +24,16 @@ best-prompts 希望做两件事：
 学位论文全流程（大纲审核、结构仿写、润色扩写、参考文献、防 AIGC、中英互译等），配合图表生成完成系统设计章节的图文内容。
 
 
-| 用途         | Prompt                                                                                                                             |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| **正文内容撰写** | [paper-write-prompt.md](prompts/paper-write-prompt.md) — 大纲审核、绪论/摘要/实验章节仿写、润色/扩写/缩写、参考文献、防 AIGC、中英互译、结构化信息提取                       |
-| **系统章节生成** | [codegen-paper-chapter-generator-prompt.md](prompts/codegen-paper-chapter-generator-prompt.md) — 根据大纲与项目代码生成系统设计章节正文               |
-| **通用图表**   | [drawio-diagram-generator-prompt.md](prompts/drawio-diagram-generator-prompt.md) — 模型架构图、算法流程图、概念示意图                               |
-| **技术栈图**   | [codegen-tech-stack-diagram-prompt.md](prompts/codegen-tech-stack-diagram-prompt.md) — 前端/后端/模型服务技术栈结构图                            |
-| **系统架构图**  | [codegen-system-arch-diagram-prompt.md](prompts/codegen-system-arch-diagram-prompt.md) — 四层分层架构图                                   |
-| **数据结构图**  | [codegen-data-structure-diagram-prompt.md](prompts/codegen-data-structure-diagram-prompt.md) — 表格式实体与字段关系图                         |
-| **E-R 图**  | [codegen-er-diagram-prompt.md](prompts/codegen-er-diagram-prompt.md) — Chen 记法实体关系图                                                |
-| **图片风格迁移** | [codegen-diagram-style-migration-prompt.md](prompts/codegen-diagram-style-migration-prompt.md) — 按参考图风格生成项目图表                      |
+| 用途         | Prompt                                                                                                                           |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| **正文内容撰写** | [paper-write-prompt.md](prompts/paper-write-prompt.md) — 大纲审核、绪论/摘要/实验章节仿写、润色/扩写/缩写、参考文献、防 AIGC、中英互译、结构化信息提取                     |
+| **系统章节生成** | [codegen-paper-chapter-generator-prompt.md](prompts/codegen-paper-chapter-generator-prompt.md) — 根据大纲与项目代码生成系统设计章节正文             |
+| **通用图表**   | [drawio-diagram-generator-prompt.md](prompts/drawio-diagram-generator-prompt.md) — 模型架构图、算法流程图、概念示意图                             |
+| **技术栈图**   | [codegen-tech-stack-diagram-prompt.md](prompts/codegen-tech-stack-diagram-prompt.md) — 前端/后端/模型服务技术栈结构图                          |
+| **系统架构图**  | [codegen-system-arch-diagram-prompt.md](prompts/codegen-system-arch-diagram-prompt.md) — 四层分层架构图                                 |
+| **数据结构图**  | [codegen-data-structure-diagram-prompt.md](prompts/codegen-data-structure-diagram-prompt.md) — 表格式实体与字段关系图                       |
+| **E-R 图**  | [codegen-er-diagram-prompt.md](prompts/codegen-er-diagram-prompt.md) — Chen 记法实体关系图                                              |
+| **图片风格迁移** | [diagram-style-migration-prompt.md](prompts/diagram-style-migration-prompt.md) — 参考图 + 内容描述/项目，按参考图风格生成新图表                       |
 | **答辩 PPT** | [pptgen-drawio-paper-defense-prompt.md](prompts/pptgen-drawio-paper-defense-prompt.md) — 多页 Draw.io 生成，配合 drawio2pptx 导出可编辑的 PPT |
 
 
