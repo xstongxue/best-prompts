@@ -36,6 +36,11 @@ best-prompts 希望做两件事：
 | **图片风格迁移** | [diagram-style-migration-prompt.md](prompts/diagram-style-migration-prompt.md) — 参考图 + 内容描述/项目，按参考图风格生成新图表                       |
 | **答辩 PPT** | [pptgen-drawio-paper-defense-prompt.md](prompts/pptgen-drawio-paper-defense-prompt.md) — 多页 Draw.io 生成，配合 drawio2pptx 导出可编辑的 PPT |
 
+### 投稿小论文撰写
+
+期刊/会议论文写作，推荐使用外部精选资源：
+
+- [awesome-ai-research-writing](https://github.com/Leey21/awesome-ai-research-writing) — AI 辅助学术写作工具与 Prompt 汇总
 
 ### 开发流程四步法
 
@@ -70,11 +75,19 @@ best-prompts 希望做两件事：
 | 简历项目描述 | [codegen-resume-format-prompt.md](prompts/codegen-resume-format-prompt.md)           |
 
 
-### 投稿小论文撰写
 
-期刊/会议论文写作，推荐使用外部精选资源：
+### 周报 / 汇报 / 总结 / 介绍
 
-- [awesome-ai-research-writing](https://github.com/Leey21/awesome-ai-research-writing) — AI 辅助学术写作工具与 Prompt 汇总
+将工作草稿、碎片笔记或背景信息整理为结构清晰、数据精准、有结论的高质量文档。
+
+
+| 用途         | Prompt                                                                       |
+| ---------- | ---------------------------------------------------------------------------- |
+| 周报         | [doc-weekly-report-prompt.md](prompts/doc-weekly-report-prompt.md) — 碎片草稿 → 标准周报，含本周完成/进行中/下周计划/问题风险 |
+| 工作汇报       | [doc-work-report-prompt.md](prompts/doc-work-report-prompt.md) — 结论前置，进展状态标签（✅/🔄/⏳），关键成果与协调事项 |
+| 工作总结 / 复盘  | [doc-summary-report-prompt.md](prompts/doc-summary-report-prompt.md) — 背景目标、量化成果、根因分析、可复用经验方法论 |
+| 项目/产品/个人介绍 | [doc-introduction-prompt.md](prompts/doc-introduction-prompt.md) — 一句话定位、核心能力对比表、差异化优势、具体适用场景 |
+
 
 ### 工具与扩展
 
