@@ -46,17 +46,18 @@ best-prompts 希望做两件事：
 
 - [awesome-ai-research-writing](https://github.com/Leey21/awesome-ai-research-writing) — AI 辅助学术写作工具与 Prompt 汇总
 
-### 开发流程四步法
+### 开发流程五步法
 
-需求理解 → 方案设计 → 代码实现 → 代码审查。
+需求理解 → 方案设计 → 代码实现 → 代码审查 → Bug 修复。
 
 
-| 步骤   | Prompt                                                               |
-| ---- | -------------------------------------------------------------------- |
-| 需求理解 | [dev-requirement-prompt.md](prompts/dev-requirement-prompt.md)       |
-| 方案设计 | [dev-design-prompt.md](prompts/dev-design-prompt.md)                 |
-| 代码实现 | [dev-implementation-prompt.md](prompts/dev-implementation-prompt.md) |
-| 代码审查 | [dev-review-prompt.md](prompts/dev-review-prompt.md)                 |
+| 步骤      | Prompt                                                                   |
+| ------- | ------------------------------------------------------------------------ |
+| 需求理解    | [dev-requirement-prompt.md](prompts/dev-requirement-prompt.md)           |
+| 方案设计    | [dev-design-prompt.md](prompts/dev-design-prompt.md)                     |
+| 代码实现    | [dev-implementation-prompt.md](prompts/dev-implementation-prompt.md)     |
+| 代码审查    | [dev-review-prompt.md](prompts/dev-review-prompt.md)                     |
+| Bug 修复  | [dev-bug-fix-prompt.md](prompts/dev-bug-fix-prompt.md) — 按优先级列出多种方案，自动逐一尝试，解决即停 |
 
 
 ### 自媒体创作
@@ -110,4 +111,3 @@ best-prompts 希望做两件事：
 > 2. 复制 `# Role` 到 `# Input` 之间的完整 Prompt（含  代码块）
 > 3. 粘贴到与 AI 的对话中
 > 4. 在 `[在此处填写]` 或 `[在此处粘贴]` 位置填入你的内容
-
