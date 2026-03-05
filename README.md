@@ -6,6 +6,9 @@
 
 更多模型排名：[https://arena.ai/zh/leaderboard](https://arena.ai/zh/leaderboard)
 
+> 💡 如果你使用 Cursor、Claude Code、OpenClaw 等 Agent 工具，本仓库的大部分场景都有对应的 **Skill 版本**，无需手动复制粘贴，Agent 会自动识别并调用：
+> 👉 [best-skills](https://github.com/xstongxue/best-skills)
+
 ## 一 项目初衷
 
 在 Vibe Coding 时代，**好的 Prompt 决定 AI 的输出质量**。但市面上很多「万能写作 Prompt」要么太泛、要么太散——真正能贴合具体场景、适配输出格式、兼顾约束细节的，少之又少。
@@ -36,6 +39,7 @@ best-prompts 希望做两件事：
 | **图片风格迁移** | [diagram-style-migration-prompt.md](prompts/diagram-style-migration-prompt.md) — 参考图 + 内容描述/项目，按参考图风格生成新图表                       |
 | **答辩 PPT** | [pptgen-drawio-paper-defense-prompt.md](prompts/pptgen-drawio-paper-defense-prompt.md) — 多页 Draw.io 生成，配合 drawio2pptx 导出可编辑的 PPT |
 
+
 ### 投稿小论文撰写
 
 期刊/会议论文写作，推荐使用外部精选资源：
@@ -58,11 +62,11 @@ best-prompts 希望做两件事：
 ### 自媒体创作
 
 
-| 用途              | Prompt                                                                                                                                            |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 用途              | Prompt                                                                                                                                                 |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 公众号/技术博客        | [wechat-article-write-prompt.md](prompts/wechat-article-write-prompt.md) — 搜索资料、撰写、爆款标题、排版优化；**集成 9 种写作风格 + 风格提取**（从样本文章提取可复用规则与 Prompt），按需复制对应 Prompt |
-| 公众号封面 Draw.io   | [wechat-article-image-generator-prompt.md](prompts/wechat-article-image-generator-prompt.md) — 封面/结尾图 .drawio XML，支持 1:1、16:9、9:16、4:3、3:4、2.35:1 |
-| 公众号文章插图 Draw.io | [wechat-article-illustration-prompt.md](prompts/wechat-article-illustration-prompt.md) — 正文插图 .drawio XML，步骤图、演示图、流程示意、前后对比                       |
+| 公众号封面 Draw.io   | [wechat-article-image-generator-prompt.md](prompts/wechat-article-image-generator-prompt.md) — 封面/结尾图 .drawio XML，支持 1:1、16:9、9:16、4:3、3:4、2.35:1      |
+| 公众号文章插图 Draw.io | [wechat-article-illustration-prompt.md](prompts/wechat-article-illustration-prompt.md) — 正文插图 .drawio XML，步骤图、演示图、流程示意、前后对比                            |
 
 
 ### 项目文档与简历
@@ -75,18 +79,17 @@ best-prompts 希望做两件事：
 | 简历项目描述 | [codegen-resume-format-prompt.md](prompts/codegen-resume-format-prompt.md)           |
 
 
-
 ### 周报 / 汇报 / 总结 / 介绍
 
 将工作草稿、碎片笔记或背景信息整理为结构清晰、数据精准、有结论的高质量文档。
 
 
-| 用途         | Prompt                                                                       |
-| ---------- | ---------------------------------------------------------------------------- |
+| 用途         | Prompt                                                                                               |
+| ---------- | ---------------------------------------------------------------------------------------------------- |
 | 周报         | [doc-weekly-report-prompt.md](prompts/doc-weekly-report-prompt.md) — 碎片草稿 → 标准周报，含本周完成/进行中/下周计划/问题风险 |
-| 工作汇报       | [doc-work-report-prompt.md](prompts/doc-work-report-prompt.md) — 结论前置，进展状态标签（✅/🔄/⏳），关键成果与协调事项 |
-| 工作总结 / 复盘  | [doc-summary-report-prompt.md](prompts/doc-summary-report-prompt.md) — 背景目标、量化成果、根因分析、可复用经验方法论 |
-| 项目/产品/个人介绍 | [doc-introduction-prompt.md](prompts/doc-introduction-prompt.md) — 一句话定位、核心能力对比表、差异化优势、具体适用场景 |
+| 工作汇报       | [doc-work-report-prompt.md](prompts/doc-work-report-prompt.md) — 结论前置，进展状态标签（✅/🔄/⏳），关键成果与协调事项       |
+| 工作总结 / 复盘  | [doc-summary-report-prompt.md](prompts/doc-summary-report-prompt.md) — 背景目标、量化成果、根因分析、可复用经验方法论       |
+| 项目/产品/个人介绍 | [doc-introduction-prompt.md](prompts/doc-introduction-prompt.md) — 一句话定位、核心能力对比表、差异化优势、具体适用场景        |
 
 
 ### 工具与扩展
@@ -107,3 +110,4 @@ best-prompts 希望做两件事：
 > 2. 复制 `# Role` 到 `# Input` 之间的完整 Prompt（含  代码块）
 > 3. 粘贴到与 AI 的对话中
 > 4. 在 `[在此处填写]` 或 `[在此处粘贴]` 位置填入你的内容
+
