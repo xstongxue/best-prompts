@@ -66,7 +66,7 @@ best-prompts 希望做两件事：
 | 用途              | Prompt                                                                                                                                                 |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 公众号/技术博客        | [wechat-article-write-prompt.md](prompts/wechat-article-write-prompt.md) — 搜索资料、撰写、爆款标题、排版优化；**集成 9 种写作风格 + 风格提取**（从样本文章提取可复用规则与 Prompt），按需复制对应 Prompt |
-| 公众号封面 Draw.io   | [wechat-article-image-generator-prompt.md](prompts/wechat-article-image-generator-prompt.md) — 封面/结尾图 .drawio XML，支持 1:1、16:9、9:16、4:3、3:4、2.35:1      |
+| 公众号封面 Draw.io   | [wechat-article-image-generator-prompt.md](prompts/wechat-article-image-generator-prompt.md) — 封面/结尾图 .drawio XML，默认合并封面（1283×383），支持大封面 900×383、小封面 383×383、16:9、9:16      |
 | 公众号文章插图 Draw.io | [wechat-article-illustration-prompt.md](prompts/wechat-article-illustration-prompt.md) — 正文插图 .drawio XML，步骤图、演示图、流程示意、前后对比                            |
 
 
@@ -91,6 +91,16 @@ best-prompts 希望做两件事：
 | 工作汇报       | [doc-work-report-prompt.md](prompts/doc-work-report-prompt.md) — 结论前置，进展状态标签（✅/🔄/⏳），关键成果与协调事项       |
 | 工作总结 / 复盘  | [doc-summary-report-prompt.md](prompts/doc-summary-report-prompt.md) — 背景目标、量化成果、根因分析、可复用经验方法论       |
 | 项目/产品/个人介绍 | [doc-introduction-prompt.md](prompts/doc-introduction-prompt.md) — 一句话定位、核心能力对比表、差异化优势、具体适用场景        |
+
+
+### 前端界面设计
+
+创建具有高设计品质、可交付生产的前端界面，规避「AI 通用审美」，产出有创意、打磨到位的代码与设计。
+
+
+| 用途 | Prompt |
+| --- | --- |
+| 前端界面设计 | [frontend-design-prompt.md](prompts/frontend-design-prompt.md) — Web 组件/页面/应用，有强烈美学立场的前端实现，规避 AI 通用审美 |
 
 
 ### 工具与扩展
